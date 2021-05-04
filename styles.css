@@ -5,19 +5,18 @@ body {
     background: rgb(22, 29, 29);
   }
 
-h1 {
+.white-boxed {
     color:rgb(255, 255, 255);
     box-sizing: border-box;
-}
-
-#p1 {
-    color:rgb(255, 255, 255);
 }
 
 div.a {
     text-align: center;
 }
 
-#p2 {
-    color:rgb(255, 255, 255);
+.red-rounded {
+    border-color: red;
+    border-width: 10px;
+    border-radius: 50%;
+    border-style: ridge;
 }
