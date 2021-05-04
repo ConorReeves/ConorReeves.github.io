@@ -23,6 +23,7 @@ body {
   #rick {
     height: 420px;
     width: 640;
+    
   }
 
   .center {
@@ -30,4 +31,18 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  .crescent {
+    position: absolute;
+    margin: auto;
+    top: 20%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 25px 10px 0px 0px blue;
   }
