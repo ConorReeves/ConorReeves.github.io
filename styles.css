@@ -20,6 +20,11 @@ body {
     border-style: ridge;
   }
   
+  #rick {
+    height: 420px;
+    width: 640;
+  }
+
   .center {
     display: block;
     margin-left: auto;
