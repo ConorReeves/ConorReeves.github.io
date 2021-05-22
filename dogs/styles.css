@@ -1,9 +1,56 @@
+:root {
+    --curve: 5px;
+}
+
+html {
+    background-color: #FF64FC;
+}
+
 .flex-container {
-    border-radius: 3px 3px 0 0;
-    height: 40px;
-    display: table;
-    width: 100%;
-    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7em;
     text-transform: uppercase;
-    border-bottom: 1px solid #005d7a;
+    flex-direction: column;
+}
+
+.back-img {
+    box-align: center;
+}
+
+.border { 
+    border: 2px solid #1C6EA4;
+}
+
+.center {
+    margin: auto !important;
+}
+
+#rectangle {
+    height: 5em;
+    width: 1280px; 
+    background-color: rgb(37, 150, 190);
+}
+
+.dog-slot {
+    background: rgb(5, 80, 105) !important;
+}
+
+.title {
+    background: linear-gradient(to top, #1C6EA4, rgb(37, 150, 190) 99%) !important;
+    color: white;
+    font-size: 20px;
+    text-indent: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-curved-top {
+    border-top-left-radius: var(--curve);
+    border-top-right-radius: var(--curve);
+}
+
+.box-curved-bottom {
+    border-bottom-left-radius: var(--curve);
+    border-bottom-right-radius: var(--curve);
 }
